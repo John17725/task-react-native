@@ -4,7 +4,7 @@
   "description": "API to manipulate tasks",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "dev": "nodemon src --exec babel-node",
     "build":"babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
