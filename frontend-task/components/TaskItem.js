@@ -4,8 +4,9 @@ import React from 'react'
 const TaskItem = ({task}) => {
   return (
     <View style={styles.itemContainer}>
-      <Text style={styles.itemTitle}>{task.title}</Text>
-      <Text style={styles.itemDescription}>{task.description}</Text>
+      <Text style={styles.itemTitle}>Nacion: {task.Nation}</Text>
+      <Text style={styles.itemDescription}>Popularidad: {task.Population}</Text>
+      <Text style={styles.itemDescription}>Año: {task.Year}</Text>
     </View>
   )
 }

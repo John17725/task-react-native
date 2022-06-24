@@ -10,7 +10,7 @@ function TaskList({tasks}) {
     return (
         <FlatList
             data={tasks}
-            keyExtractor={(item) => item.id+''}
+            keyExtractor={(item) => item.Year}
             renderItem={ renderItem }
         />
     )
